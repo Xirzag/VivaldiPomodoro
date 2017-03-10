@@ -1,0 +1,15 @@
+.timerInput{
+    border: none;
+    width: 1.5em;
+    text-align: right;
+}
+
+.timer{
+    font-size: 20vw;
+    text-align: center;
+}
+
+.controls .row{
+    margin: 1vw;
+    /*border-spacing:5px;*/
+}

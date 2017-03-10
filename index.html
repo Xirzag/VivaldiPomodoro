@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Vivaldi Pomodoro</title>
+
+    <link rel="icon" type="image/png" href="https://cdn3.iconfinder.com/data/icons/veggies/128/tomato.png" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="timer">
+    <input id="minutes" class="timerInput" type="number" maxlength="2" value="25">
+    :
+    <input id="seconds" class="timerInput" type="number" maxlength="2" value="00">
+</div>
+<div class="container controls">
+    <div class="row">
+        <button id="start" class="btn btn-primary  btn-lg col-12">Start</button>
+    </div>
+    <div class="row">
+        <div class="p-1 col-6">
+            <button id="restart" class="btn btn-primary col-12">Restart</button>
+        </div>
+        <div class="p-1 col-6">
+            <button id="pause" class="btn btn-primary col-12">Pause</button>
+        </div>
+    </div>
+    <div class="row">
+        <!--<h4>Alert Sound:</h4>
+            <input id="audioName" type="text" class="form-control" readonly>
+            <label class="btn btn-primary">
+                Browse&hellip; <input id="audioInput" type="file" style="display: none;">
+            </label>-->
+
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
